@@ -4,7 +4,7 @@ mkdir -p $HOME/bin
 export PATH=$HOME/bin:$PATH
 
 # bootstrap rails/sinatra
-sudo apt-get install -y ruby2.1-dev bundler
+sudo apt-get install -y ruby-dev bundler
 (cd rails/benchmarker   && bundle install)
 (cd sinatra/benchmarker && bundle install)
 (cd cuba/benchmarker && bundle install)

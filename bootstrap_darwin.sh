@@ -12,8 +12,8 @@ fi
 
 # bootstrap rails/sinatra
 brew install rbenv
-rbenv install --skip-existing 2.3.1
-rbenv shell 2.3.1 && gem install bundler
+rbenv install --skip-existing 3.2.2
+rbenv shell 3.2.2 && gem install bundler
 rbenv shell --unset
 (cd rails/benchmarker   && bundle install)
 (cd sinatra/benchmarker && bundle install)
